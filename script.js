@@ -8,4 +8,7 @@
 
 YARN means- yet another resource negotiatior and was released in 2016
 
-PNPM- released in 2017
+PNPM- released in 2017*/
+
+const { v4: uuidv4 } = require('uuid');
+console.log(uuidv4())
